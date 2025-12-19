@@ -263,7 +263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c580475fc61ea748a6821468c182492, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyItem1
-  BoxContainer: {fileID: 1111768727}
   KeyItemName: TeddyBear
 --- !u!1001 &66776787
 PrefabInstance:
@@ -499,7 +498,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &160742147
@@ -909,7 +908,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &235906676
@@ -1701,7 +1700,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 0.42, y: 0.56}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2492,7 +2491,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &546779399 stripped
@@ -2733,7 +2732,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -3016,7 +3016,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &664829186
@@ -3600,7 +3600,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &741404224 stripped
@@ -3831,7 +3831,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &790233357 stripped
@@ -3900,7 +3900,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -4101,7 +4102,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   Keypad: {fileID: 2394163232432564530, guid: 04d9363e5df2ea24bad8b483f05995af, type: 3}
-  GhostObject: {fileID: 1952311508}
   KeypadBarrier: {fileID: 1007300968}
 --- !u!212 &835392432
 SpriteRenderer:
@@ -4158,7 +4158,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &841179968 stripped
@@ -4326,7 +4326,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &898087659 stripped
@@ -4572,7 +4572,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &994847346 stripped
@@ -4852,7 +4852,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1067453989
@@ -5286,7 +5286,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1111768729
@@ -5746,7 +5746,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -6178,7 +6179,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1330123909
@@ -6395,8 +6396,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5656c9bef3122284d8694544b13329e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  X: 0
-  Y: 0
+  DimensionX: 9.4
+  DimensionY: 7.2
   Item: {fileID: 0}
 --- !u!114 &1344567661
 MonoBehaviour:
@@ -6426,6 +6427,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Key: {fileID: 1864598858}
+  DoorTag: 
 --- !u!1001 &1369860037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6565,7 +6567,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 2}
+    oldSize: {x: 0.42, y: 0.56}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -7182,7 +7184,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1427488905 stripped
@@ -7350,7 +7352,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1460717391 stripped
@@ -7968,7 +7970,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -8197,6 +8200,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Key: {fileID: 0}
+  DoorTag: 
 --- !u!1 &1637517163 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9132898103720649381, guid: b69876f0e78834a499f8ae961f21bd8f, type: 3}
@@ -8425,7 +8429,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -8899,8 +8904,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5656c9bef3122284d8694544b13329e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  X: 0
-  Y: 0
+  DimensionX: 9.4
+  DimensionY: 7.2
   Item: {fileID: 0}
 --- !u!114 &1808583173
 MonoBehaviour:
@@ -8930,6 +8935,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   Key: {fileID: 1864598858}
+  DoorTag: 
 --- !u!1 &1856995709
 GameObject:
   m_ObjectHideFlags: 0
@@ -9124,6 +9130,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Key: {fileID: 0}
+  DoorTag: 
 --- !u!1001 &1881873420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9425,7 +9432,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &1952311506
@@ -9527,11 +9534,6 @@ PrefabInstance:
 --- !u!4 &1952311507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5152141054908501459, guid: 5fe26e0ca376d36489cf23ac4519eb15, type: 3}
-  m_PrefabInstance: {fileID: 1952311506}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1952311508 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5038576550297961384, guid: 5fe26e0ca376d36489cf23ac4519eb15, type: 3}
   m_PrefabInstance: {fileID: 1952311506}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1967803186
